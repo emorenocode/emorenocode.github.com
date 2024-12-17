@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Clinica DAC (Wordpress)",
+    "link": "https://clinicadac.com",
+    "img": "clinicadac.jpg"
+  },
+  {
+    "name": "Filo Landing Page (Html)",
+    "link": "https://fylo-landing-page.now.sh",
+    "img": "https://repository-images.githubusercontent.com/263813265/ba45d180-977f-11ea-8949-a957673a8299"
+  },
+  {
+    "name": "Filo Landing Page (Vue.js)",
+    "link": "https://fylo-landing-page-vue.vercel.app/",
+    "img": "https://repository-images.githubusercontent.com/263813265/ba45d180-977f-11ea-8949-a957673a8299"
+  },
+  {
+    "name": "Filo Landing Page (Angular)",
+    "link": "https://fylo-landing-page-angular.vercel.app/",
+    "img": "https://repository-images.githubusercontent.com/263813265/ba45d180-977f-11ea-8949-a957673a8299"
+  },
+  {
+    "name": "Filo Landing Page (React)",
+    "link": "https://fylo-landing-page-react.vercel.app/",
+    "img": "https://repository-images.githubusercontent.com/263813265/ba45d180-977f-11ea-8949-a957673a8299"
+  },
+  {
+    "name": "Manage Landing Page (Html)",
+    "link": "https://manage-landing-page-html.now.sh",
+    "img": "https://repository-images.githubusercontent.com/270149088/72224800-a82f-11ea-9c01-6f6473680623"
+  },
+  {
+    "name": "Manage Landing Page (React)",
+    "link": "https://manage-landing-page-react.now.sh",
+    "img": "https://repository-images.githubusercontent.com/270149088/72224800-a82f-11ea-9c01-6f6473680623"
+  },
+  {
+    "name": "Manage Landing Page (Svelte)",
+    "link": "https://manage-landing-page-svelte.now.sh",
+    "img": "https://repository-images.githubusercontent.com/270149088/72224800-a82f-11ea-9c01-6f6473680623"
+  },
+  {
+    "name": "Cheverony Store (Svelte)",
+    "link": "https://cheverony.now.sh",
+    "img": "https://repository-images.githubusercontent.com/265459456/63cc0d80-9c2d-11ea-89f2-5cd9d11bece0"
+  },
+  {
+    "name": "Huddle Single (Html)",
+    "link": "https://huddle-single-introductory-section-html.now.sh/",
+    "img": "https://repository-images.githubusercontent.com/265690051/512fc800-9ab7-11ea-9440-f70056373cef"
+  },
+  {
+    "name": "Product list with cart (html)",
+    "link": "https://product-list-with-cart-html.vercel.app/",
+    "img": "https://repository-images.githubusercontent.com/828407598/329c883b-c2fe-4e45-b473-7829dcbd1708"
+  },
+  {
+    "name": "Ngx Color List",
+    "link": "https://jemc300x.github.io/ngx-color-list/",
+    "img": "https://repository-images.githubusercontent.com/881187402/443d168f-3a2b-48ff-866e-b7e3882ccaf4"
+  }
+]

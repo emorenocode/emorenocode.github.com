@@ -1,0 +1,22 @@
+<section class="portfolio">
+  <h2>Porfolio</h2>
+
+  <div class="projects_container">
+    <div class="projects">
+      <div *ngFor="let portfolio of portfolios" class="item">
+        <div class="header">
+          <a [href]="portfolio.link" target="_blank" rel="noopener noreferrer">
+            <img
+              [src]="portfolio.img | image"
+              [alt]="portfolio.name"
+              [title]="portfolio.name"
+            />
+          </a>
+        </div>
+        <div class="description">
+          <span>{{ portfolio.name }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

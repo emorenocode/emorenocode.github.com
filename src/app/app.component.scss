@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+footer {
+  flex: 1;
+}
+
+@media (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    max-width: 1440px;
+    padding: 50px;
+  }
+}

@@ -1,9 +1,10 @@
 <section class="portfolio">
-  <h2>Porfolio</h2>
+  <h2>Portfolio</h2>
 
   <div class="projects_container">
     <div class="projects">
-      <div *ngFor="let portfolio of portfolios" class="item">
+      @for (portfolio of portfolios; track $index) {
+      <div class="item">
         <div class="header">
           <a [href]="portfolio.link" target="_blank" rel="noopener noreferrer">
             <img
@@ -17,6 +18,7 @@
           <span>{{ portfolio.name }}</span>
         </div>
       </div>
+      }
     </div>
   </div>
 </section>

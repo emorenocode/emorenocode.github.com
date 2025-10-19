@@ -53,5 +53,10 @@
     "name": "Product list with cart (Angular)",
     "link": "https://product-list-with-cart-angular.vercel.app/",
     "img": "https://repository-images.githubusercontent.com/930472149/8e6bbce7-ab98-4c44-9aee-05d319ca55db"
+  },
+  {
+    "name": "PokerCrum (Angular)",
+    "link": "https://pokercrum.vercel.app/",
+    "img": "https://repository-images.githubusercontent.com/1073382826/3333f8e8-5c10-47cc-b2bc-385a2b5a61dc"
   }
 ]

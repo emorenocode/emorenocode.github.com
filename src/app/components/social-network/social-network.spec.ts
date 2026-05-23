@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PortfolioComponent } from './portfolio.component';
+import { SocialNetwork } from './social-network';
 
-describe('PortfolioComponent', () => {
-  let component: PortfolioComponent;
-  let fixture: ComponentFixture<PortfolioComponent>;
+describe('SocialNetwork', () => {
+  let component: SocialNetwork;
+  let fixture: ComponentFixture<SocialNetwork>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PortfolioComponent],
+      imports: [SocialNetwork],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PortfolioComponent);
+    fixture = TestBed.createComponent(SocialNetwork);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

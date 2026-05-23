@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StackComponent } from './stack.component';
+import { Portfolio } from './portfolio';
 
-describe('StackComponent', () => {
-  let component: StackComponent;
-  let fixture: ComponentFixture<StackComponent>;
+describe('Portfolio', () => {
+  let component: Portfolio;
+  let fixture: ComponentFixture<Portfolio>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [StackComponent],
+      imports: [Portfolio],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StackComponent);
+    fixture = TestBed.createComponent(Portfolio);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

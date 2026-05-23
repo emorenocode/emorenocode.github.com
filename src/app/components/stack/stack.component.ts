@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-stack',
-  templateUrl: './stack.component.html',
-  styleUrls: ['./stack.component.scss']
+    selector: 'app-stack',
+    templateUrl: './stack.component.html',
+    styleUrls: ['./stack.component.scss'],
+    standalone: false
 })
 export class StackComponent implements OnInit {
 

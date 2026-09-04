@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { SocialNetwork } from '../social-network/social-network';
 
 @Component({
@@ -31,6 +31,7 @@ import { SocialNetwork } from '../social-network/social-network';
       box-shadow: 0px 0px 5px 0pc white;
     }
   `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   imports: [SocialNetwork],
 })
 export class Header {

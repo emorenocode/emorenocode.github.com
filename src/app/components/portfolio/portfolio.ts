@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import PORTFOLIO from '../../../assets/portfolio.json';
 import { ImagePipe } from '../../pipes/image.pipe';
 
@@ -101,6 +101,7 @@ import { ImagePipe } from '../../pipes/image.pipe';
       }
     }
   `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   imports: [ImagePipe],
 })
 export class Portfolio {

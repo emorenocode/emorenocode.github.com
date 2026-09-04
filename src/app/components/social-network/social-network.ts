@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-social-network',
@@ -16,6 +16,7 @@ import { Component } from '@angular/core';
       ></a>
     </div>
   `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   styles: `
     .social-media {
       width: 200px;

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
       <p>&copy;{{ currentYear }}</p>
     </footer>
   `,
+  changeDetection: ChangeDetectionStrategy.Eager,
   styles: `
     footer {
       padding: 2rem;
